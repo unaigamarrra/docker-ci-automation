@@ -74,7 +74,7 @@ jobs:
         id: docker_meta
         uses: docker/metadata-action@v5
         with:
-          images: bretfisher/docker-ci-automation,ghcr.io/bretfisher/docker-ci-automation
+          images: avenger424242/docker-ci-automation,ghcr.io/avenger424242/docker-ci-automation
           flavor: |
             latest=false
           tags: |
